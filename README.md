@@ -25,6 +25,8 @@ company_detail = soup.find_all("div", class_="browse-search__pod col__12-12 col_
 product_list = [comp.find("span",class_="product-header__title-product--4y7oa").text if comp.find("span",class_="product-header__title-product--4y7oa") is not None else "" for comp in company_detail]
 ```
 
+![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo01.png)
+
 ### Step 3 - Save the data, and loop it.
 
 Once we know the code is working, the next step is to append the data into an empty list, and to repeat the process for each page. Please keep in mind, every website is different. In this case, if you are in the end page and if you click next, it's going to bring you back to page one causing a forever loop. To avoid this; I created an IF statment where if the total Page Number is not the same as the current Page Number, to continue as is. 
@@ -59,6 +61,9 @@ In the final step, I created a visual key to summarize the extracted details. As
 
 One interesting finding was that I was able to graph the average ratings for each supplier. This allowed me to identify unique selling points for each supplier, and consider how we might be able to enhance these offerings to better serve the customer.
 
+![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo03.png)
+
+![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo02.png)
 
 
 
