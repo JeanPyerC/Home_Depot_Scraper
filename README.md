@@ -2,12 +2,12 @@
 
 ### Project
 
-A client contacted me requesting a website scraping service to extract specific information for examining new trends and prices. We had a discussion on the requirements for this project and came up with a list of items to extract, including who is selling the product, product descriptions, pricing, customer rating percentages, and promo details. By collecting this data, we can analyze trends, prices, reviews, and plan for better material sourcing. Additionally, we added a feature to search for specific text before running the report, which in this case, was "Floor Tiles."
+Recently, a client contacted me to request a website scraping service aimed at extracting specific information that could be used to analyze new trends and prices. After a thorough discussion regarding project requirements, we created a list of items to extract. This included details such as who was selling the product, product descriptions, pricing information, customer rating percentages, and promotional details. With this data at our disposal, we could analyze trends, pricing, and reviews to better plan for material sourcing.
 
 
 ### Step 1 - Know On What To Extract
 
-We need to visit the website and see what data we have to use to extract the following details. I always suggest to start small by extracting each line of code before adding in loops or addtional formatting. We also need to know what we are targeting, for example, in the photo below, we need to target each pods within this field. If we target the entire page, we will be extracting "Related Porducts", "Other Customers Search", and "Customers Also Bought These Items". Those information will not be needed, and if extracted, if could obscure our data.  
+To extract the desired details, we should begin by visiting the website and examining the available data. I recommend starting with small extractions of each line of code before moving on to adding loops or additional formatting. It's important to know exactly what we're targeting, such as each individual pod within a particular field (as seen in the photo below). If we were to target the entire page, we could inadvertently extract extraneous information such as "Related Products," "Other Customer Searches," and "Customers Also Bought These Items." These details are not relevant to our needs and could potentially obscure the data we're trying to extract.
 
 
 ### Step 2 - Extracting The Details
@@ -53,7 +53,11 @@ while(cont):
 cont=False
 ```
 
-### Step 4 - Graph the data, and show case it
+### Step 4 - Graph the data, and show case it.
+
+In the final step, I created a visual key to summarize the extracted details. As this project was for a client and involved sensitive information, I had to limit the amount of data that could be shared. However, with the information that was available, I was able to extract measurements and use them to gain insight into customer preferences and average pricing. The possibilities with data are endless.
+
+One interesting finding was that I was able to graph the average ratings for each supplier. This allowed me to identify unique selling points for each supplier, and consider how we might be able to enhance these offerings to better serve the customer.
 
 
 
