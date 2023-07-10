@@ -57,11 +57,10 @@ cont=False
 
 ### Step 4 - Graph the data, and show case it.
 
-In the final step, I created a visual key to summarize the extracted details. As this project was for a client and involved sensitive information, I had to limit the amount of data that could be shared. However, with the information that was available, I was able to extract measurements and use them to gain insight into customer preferences and average pricing. The possibilities with data are endless.
+In the final step, I created a visually appealing summary of the extracted details. The goal was to create a key that not only provides essential information but also engages the audience by telling a compelling story. To achieve this, I utilized Power BI to present the data in an interactive manner. Users can now easily filter the information based on Color, Size, and Tags, allowing them to gain valuable insights into competitor pricing and customer interests. Additionally, they can observe the website's performance. I thoroughly enjoyed working on this project, and I am delighted that the client is satisfied with the outcome.
 
-One interesting finding was that I was able to graph the average ratings for each supplier. This allowed me to identify unique selling points for each supplier, and consider how we might be able to enhance these offerings to better serve the customer.
 
-![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo03.png)
+![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo04.png)
 
 ![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo02.png)
 
