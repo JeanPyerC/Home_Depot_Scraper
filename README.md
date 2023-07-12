@@ -5,18 +5,13 @@
 A website scraping aimed at extracting specific information that could be used to analyze new trends, prices, customer satisfaction, and supplier stock information. 
 
 
-### Step 1 - Know On What To Extract
+### Step 1 - Extracting The Details
 
-To extract the desired details, we should visit the website and examine the available data. I recommend starting with minor extractions of each line of code before moving on to adding loops or additional formatting. It's important to know exactly what we're targeting, such as each pod within a particular field (as seen in the photo below). If we were to target the entire page, we could inadvertently extract extraneous information such as "Related Products," "Other Customer Searches," and "Customers Also Bought These Items." These details are irrelevant to our needs and could potentially obscure the data we're trying to extract.
+Once we have an idea of what to extract, we can start by extracting each pods using BeatifulSoup find_all method. This will scrape everything within that class, allowing us to extract our targets better; we will call this field 'company_detail'. 
 
+Let's target and extract the product's description for the following example. To this, we need to target the following element within **company_detail**, and lets add an 'if' statement just in case there's a product missing. If there is, we will leave it blank. We will call this product_list. 
 
-### Step 2 - Extracting The Details
-
-Once we have an idea on what to extract, we can start by extracting each pods using BeatifulSoup find_all method. This will scrape everything within that class allowing us to better extract our targets, we will call this field 'company_detail'. 
-
-For the next example, lets target and extract the description of the product. To this we need to target the following element within **company_detail**, and lets add a 'if' statment just in case there's a product missing. If there is, we will leave it blank. We will call this, product_list. 
-
-To better undetstand: Your First Line is extracting every pod detail information. Your second line is going into each pod and extracting the product details, if there is a pod with an empty field, it will replace it with 'None' so the code won't break or over lap. 
+To better understand: Your First Line is extracting every pod detail information. Your second line is going into each pod and extracting the product details; if there is a pod with an empty field, it will replace it with 'None' so the code won't break or overlap. 
 
 
 ```
@@ -27,9 +22,9 @@ product_list = [comp.find("span",class_="product-header__title-product--4y7oa").
 
 ![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo01.png)
 
-### Step 3 - Save the data, and loop it.
+### Step 2 - Save the data, and loop it.
 
-Once we know the code is working, the next step is to append the data into an empty list, and to repeat the process for each page. Please keep in mind, every website is different. In this case, if you are in the end page and if you click next, it's going to bring you back to page one causing a forever loop. To avoid this; I created an IF statment where if the total Page Number is not the same as the current Page Number, to continue as is. 
+Once we know the code is working, the next step is to append the data into an empty list and repeat the process for each page. Please keep in mind every website is different. In this case, if you are on the end page and click next, it will bring you back to page one, causing a forever loop. To avoid this, I created an IF statement where if the total Page Number is not the same as the current Page Number, to continue as is. 
 
 ```
 df_list = []
@@ -55,9 +50,9 @@ while(cont):
 cont=False
 ```
 
-### Step 4 - Graph the data, and show case it.
+### Step 3 - Graph the data, and showcase it.
 
-In the final step, I created a visually appealing summary of the extracted details. The goal was to create a key that not only provides essential information but also engages the audience by telling a compelling story. To achieve this, I utilized Power BI to present the data in an interactive manner. Users can now easily filter the information based on Color, Size, and Tags, allowing them to gain valuable insights into competitor pricing and customer interests. Additionally, they can observe the website's performance. I thoroughly enjoyed working on this project, and I am delighted that the client is satisfied with the outcome.
+I created a visually appealing summary of the extracted details in the final step. The goal was to create a key that provides essential information and engages the audience by telling a compelling story. To achieve this, I utilized Power BI to present the data interactively. Users can now easily filter the information based on Color, Size, and Tags, allowing them to gain valuable insights into competitor pricing and customer interests. Additionally, they can observe the website's performance. I thoroughly enjoyed working on this project and am delighted that the client is satisfied with the outcome.
 
 
 ![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo04.png)
