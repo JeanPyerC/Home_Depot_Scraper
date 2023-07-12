@@ -2,12 +2,12 @@
 
 ### Project
 
-Recently, a client contacted me to request a website scraping service aimed at extracting specific information that could be used to analyze new trends and prices. After a thorough discussion regarding project requirements, we created a list of items to extract. This included details such as who was selling the product, product descriptions, pricing information, customer rating percentages, and promotional details. With this data at our disposal, we could analyze trends, pricing, and reviews to better plan for material sourcing.
+A website scraping aimed at extracting specific information that could be used to analyze new trends, prices, customer satisfaction, and supplier stock information. 
 
 
 ### Step 1 - Know On What To Extract
 
-To extract the desired details, we should begin by visiting the website and examining the available data. I recommend starting with small extractions of each line of code before moving on to adding loops or additional formatting. It's important to know exactly what we're targeting, such as each individual pod within a particular field (as seen in the photo below). If we were to target the entire page, we could inadvertently extract extraneous information such as "Related Products," "Other Customer Searches," and "Customers Also Bought These Items." These details are not relevant to our needs and could potentially obscure the data we're trying to extract.
+To extract the desired details, we should visit the website and examine the available data. I recommend starting with minor extractions of each line of code before moving on to adding loops or additional formatting. It's important to know exactly what we're targeting, such as each pod within a particular field (as seen in the photo below). If we were to target the entire page, we could inadvertently extract extraneous information such as "Related Products," "Other Customer Searches," and "Customers Also Bought These Items." These details are irrelevant to our needs and could potentially obscure the data we're trying to extract.
 
 
 ### Step 2 - Extracting The Details
