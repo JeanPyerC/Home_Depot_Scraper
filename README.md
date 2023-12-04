@@ -1,9 +1,11 @@
 # Home Depot Scrapper
 
-### Project
+I created a visual appealing summary of the extracted details. The goal was to provide essential information and engage the audience by telling a compelling story. To achieve this, I utilized Power BI to present the data. Users can now easily filter the information based on Color, Size, and Tags, allowing them to gain valuable insights into competitor pricing and customer interests. Additionally, they can observe the website's performance. I thoroughly enjoyed working on this project and am delighted that the client is satisfied with the outcome. 
 
-A website scraping aimed at extracting specific information that could be used to analyze new trends, prices, customer satisfaction, and supplier stock information. 
 
+![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo05.png)
+
+![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo02.png)
 
 ### Step 1 - Extracting The Details
 
