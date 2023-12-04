@@ -1,11 +1,13 @@
 # Home Depot Scrapper
 
-I created a visual appealing summary of the extracted details. The goal was to provide essential information and engage the audience by telling a compelling story. To achieve this, I utilized Power BI to present the data. Users can now easily filter the information based on Color, Size, and Tags, allowing them to gain valuable insights into competitor pricing and customer interests. Additionally, they can observe the website's performance. I thoroughly enjoyed working on this project and am delighted that the client is satisfied with the outcome. 
+The goal was to provide On-Time essential information so the client can review current and potential new products. To achieve this, I utilized Power BI to present the data. Users can now easily filter the information based on Color, Size, and Tags, allowing them to gain valuable insights into competitor pricing and customer interests. Additionally, they can observe the website's performance. I thoroughly enjoyed working on this project and am delighted that the client is satisfied with the outcome. 
 
 
 ![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo05.png)
 
 ![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo02.png)
+
+# Steps I took to Achieve This:
 
 ### Step 1 - Extracting The Details
 
@@ -51,15 +53,6 @@ while(cont):
 
 cont=False
 ```
-
-### Step 3 - Graph the data, and showcase it.
-
-I created a visually appealing summary of the extracted details in the final step. The goal was to create a key that provides essential information and engages the audience by telling a compelling story. To achieve this, I utilized Power BI to present the data interactively. Users can now easily filter the information based on Color, Size, and Tags, allowing them to gain valuable insights into competitor pricing and customer interests. Additionally, they can observe the website's performance. I thoroughly enjoyed working on this project and am delighted that the client is satisfied with the outcome.
-
-
-![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo05.png)
-
-![](https://github.com/JeanPyerC/Home_Depot_Scraper/blob/main/HomeDepot_Scrape%20-%20Complete/Photos/Photo02.png)
 
 
 
